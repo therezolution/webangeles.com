@@ -1,0 +1,18 @@
+.page.what {
+  .bg-image-what {
+    //hide the negative space when small
+    display: none;
+    @media screen and (min-width: @breakpoint) { display: inline-block; }
+  }
+
+  @media screen and (min-width: @breakpoint) {
+    .item-project:nth-of-type(5n + 1) { width: 100%; }
+  }
+
+  .title-section { background: @color-rare; }
+}
+
+.collage {
+  .page-margins;
+  background: @color-empty;
+}
